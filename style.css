@@ -1,0 +1,13 @@
+/* Global */
+img { max-width: 100% }
+
+/* General */
+.fate-card { max-width: 50vw;}
+
+/* Debuging */
+.testbox,
+.col,.col-4,.col-8 {
+  background: red;
+  border: 1px solid orange;
+  opacity: 0.9;
+}
