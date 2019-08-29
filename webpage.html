@@ -9,14 +9,21 @@
 </head>
 <body>
 
-<div class="container-fluid px-5 py-3 testbox">
+<div class="container py-3">
 
-<div class="fate-card card p-2">
+<div class="fate-card card bg-light shadow-sm p-2">
   <div class="row">
-    <div class="col-4">
-      <img class="m-2" src="assets/765-default-avatar.png" />
+    <div class="col-4" id="avatar">
+      <img class="m-2 rounded-circle" src="assets/765-default-avatar.png" />
     </div>
-    <div class="col-8"></div>
+    <div class="col-8" id="identidad">
+      <div class="row"><div class="col"><p class="bg-dark text-white px-2 py-1">Identidad</p></div></div>
+      <div class="row">
+        <div class="col-10"><p class="bg-white py-1"><span class="bg-secondary text-white px-2 py-1">Nombre:</span><span id="nombre"></span></p></div>
+        <div class="col-2"><p class="bg-white py-1"><span class="bg-secondary text-white px-2 py-1">Edad:</span><span id="edad"></span></p></div>
+      </div>
+      <div class="row"></div>
+    </div>
   </div>
 
   <div class="row">
